@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>eCorner Electronics</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="responsive.css">
+</head>
+
+<header class="navbar">
+
+  <div class="logo">
+    <a href="index.html" class="logo">
+
+        <img src="assets/hero/navbarlogo.png" alt="eCorner Logo">
+    
+        <span>e-Corner</span>
+    
+    </a>
+  </div>
+  <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+    <span class="nav-toggle-bar"></span>
+    <span class="nav-toggle-bar"></span>
+    <span class="nav-toggle-bar"></span>
+  </button>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+      <li class="products-nav">
+  
+          <a href="product.html">
+              Products<i class="fa-solid fa-angle-up dropdown-arrow"></i>
+          </a>
+  
+          <div class="dropdown-menu">
+  
+            <a href="product.html?department=mobility"><i class="fa-solid fa-mobile-screen-button"></i><span>Mobility</span></a>
+            <a href="product.html?department=laptops"><i class="ri-macbook-line"></i><span>Laptop & PC</span></a>
+            <a href="product.html?department=gaming"><i class="ri-gamepad-line"></i><span>Gaming</span></a>
+            <a href="product.html?department=tv"><i class="ri-tv-2-line"></i><span>TV & Audio</span></a>
+            <a href="product.html?department=storage"><i class="ri-hard-drive-3-line"></i><span>Storage</span></a>
+            <a href="product.html?department=cctv"><i class="ri-cctv-line"></i><span>Camera</span></a>
+            <a href="product.html?department=printers"><i class="ri-printer-line"></i><span>Printer</span></a>
+            <a href="product.html?department=smartLiving"><i class="ri-home-gear-line"></i><span>Smart Living</span></a>
+            <a href="product.html?department=fragrance"><i class="ri-sparkling-line"></i><span>Fragrance</span></a>
+          </div>
+  
+      </li>
+  
+      <li><a href="service.html">Services</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li>
+        <a href="contact.html" class="active">
+            Contact
+        </a>
+    </li>
+    <li class="nav-mobile-cta-wrap"><a href="contact.html" class="nav-mobile-cta"><i class="fa-regular fa-message"></i> Enquire Now</a></li>
+  
+  </ul>
+  
+  <a
+      href="contact.html"
+      class="cta-btn">
+      <i class="fa-regular fa-message"></i>
+      Enquire Now
+  </a>
+  </header>
+
+
+  <section class="contact-hero">
+    <span class="section-tag">
+        GET IN TOUCH
+    </span>
+
+    <h1>
+        We're Here To <br>
+        <span>Help You!</span>
+    </h1>
+
+    <p>
+        Have a question, need support, or want to know more
+        about our products or repair services?
+        We'd love to hear from you.
+    </p>
+
+</section>
+<section class="contact-main">
+  <div class="container">
+
+      <!-- LEFT SIDE -->
+      <div class="contact-left">
+        <!-- Illustration Area -->
+        <div class="contact-illustration">
+          <img src="assets/contact/illustration.png" alt="Contact Illustration">
+      </div>
+
+          <div class="contact-info">
+              <div class="contact-card">
+                  <div class="icon-box">
+                      <i class="fa-solid fa-phone"></i>
+                  </div>
+
+                  <div>
+                      <h4>Call Us</h4>
+											<a href="tel:+919941950591">
+												+91 99419 50591
+										</a>
+                  </div>
+
+                  <span>→</span>
+              </div>
+
+              <div class="contact-card">
+                  <div class="icon-box">
+                      <i class="fa-brands fa-whatsapp"></i>
+                  </div>
+
+                  <div>
+                      <h4>WhatsApp Us</h4>
+                      <a href="https://wa.me/919941950591?text=Hi%20eCorner,%20I%20have%20an%20enquiry."target="_blank">+91 99419 50591</a>
+                  </div>
+
+                  <span>→</span>
+              </div>
+
+              <div class="contact-card">
+                  <div class="icon-box">
+                      <i class="fa-regular fa-envelope"></i>
+                  </div>
+
+                  <div>
+                      <h4>Email Us</h4>
+                      <a href="mailto:ecorner0002@gmail.com">ecorner0002@gmail.com</a>
+                  </div>
+
+                  <span>→</span>
+              </div>
+          </div>
+
+          
+
+      </div>
+
+
+      <!-- RIGHT SIDE -->
+      <div class="contact-form-wrapper">
+
+          <h2>Send us a Message</h2>
+
+          <p>
+              Fill out the form below and our team will get back to you.
+          </p>
+
+          <form class="contact-form">
+
+              <div class="form-row">
+
+                  <div class="form-group">
+                      <label>Full Name *</label>
+                      <input id="name" type="text"placeholder="Your full name">
+                  </div>
+
+                  <div class="form-group">
+                      <label>Phone Number *</label>
+                      <input  id="phone" type="tel"placeholder="+91 XXXXX XXXXX">
+                  </div>
+
+              </div>
+
+              <div class="form-group">
+                  <label>Email Address *</label>
+                  <input id="email" type="email"placeholder="your@email.com">         
+              </div>
+
+              <div class="form-group">
+                  <label>Subject *</label>
+                  <input id="subject" type="text"placeholder="What is this regarding?">
+              </div>
+
+              <div class="form-group">
+                  <label>Message *</label>
+                  <textarea id="message" rows="6" placeholder="Write your message here..."></textarea>
+              </div>
+
+              <button  class="send-btn" type="button" class="send-btn" onclick="sendToWhatsapp()">
+                  <i class="fa-regular fa-paper-plane"></i>
+                  Send Message
+              </button>
+
+          </form>
+
+          <p class="whatsapp-note">
+              Or reach us directly on
+              <span>WhatsApp</span> for instant response.
+          </p>
+
+      </div>
+
+  </div>
+</section>
+<section class="trust-section">
+
+  <div class="trust-card">
+      <i class="fa-regular fa-clock"></i>
+      <div>
+          <h4>Fast Response</h4>
+          <p>We reply within minutes.</p>
+      </div>
+  </div>
+
+  <div class="trust-card">
+      <i class="fa-solid fa-headset"></i>
+      <div>
+          <h4>Expert Support</h4>
+          <p>Real people, real help.</p>
+      </div>
+  </div>
+
+  <div class="trust-card">
+      <i class="fa-solid fa-shield-heart"></i>
+      <div>
+          <h4>Reliable Service</h4>
+          <p>Your satisfaction is our priority.</p>
+      </div>
+  </div>
+
+  <div class="trust-card">
+      <i class="fa-regular fa-heart"></i>
+      <div>
+          <h4>We Care</h4>
+          <p>Friendly support you can trust.</p>
+      </div>
+  </div>
+
+</section>
+
+<!-- ================= LOCATIONS SECTION ================= -->
+
+<section class="locations-section">
+
+  <div class="section-heading">
+
+      <span class="section-tag">
+          VISIT OUR STORES
+      </span>
+
+      <h2>
+          Find Us <span>Nearby</span>
+      </h2>
+
+      <p>
+          Visit any of our branches for premium electronics,
+          expert repairs and personalized support.
+      </p>
+
+  </div>
+
+
+  <div class="branch-grid">
+
+      <!-- ANNA NAGAR -->
+
+      <div class="branch-box">
+
+          <div class="branch-header">
+
+              <div class="branch-icon">
+                  <i class="fa-solid fa-store"></i>
+              </div>
+
+              <div>
+
+                  <h3>Anna Nagar Branch</h3>
+
+                  <span>Main Store</span>
+
+              </div>
+
+          </div>
+
+
+          <p class="branch-address">
+
+              No: 271, 5th Avenue,<br>
+              Near St. Luke's Church,<br>
+              Z Block, Anna Nagar,<br>
+              Chennai - 600040
+
+          </p>
+
+
+          <div class="branch-details">
+
+              <div>
+                  <i class="fa-solid fa-phone"></i>
+									<a href="tel:+919941950591">+91 99419 50591</a>
+              </div>
+
+              <div>
+                  <i class="fa-regular fa-clock"></i>
+                  10:00 AM - 9:30 PM
+              </div>
+
+          </div>
+
+
+          <a href="https://share.google/1qlMyWpjFa2lAJmDJ"
+             target="_blank"
+             class="direction-btn">
+
+              Get Directions
+
+              <i class="fa-solid fa-arrow-right"></i>
+
+          </a>
+
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.2042921464113!2d80.20755457484347!3d13.086235387239782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265d27690793b%3A0xf6a59e1022446217!2se-corner%20Anna%20Nagar!5e0!3m2!1sen!2sin!4v1782379226175!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+      </div>
+
+
+
+      <!-- VELACHERY -->
+
+      <div class="branch-box">
+
+          <div class="branch-header">
+
+              <div class="branch-icon">
+                  <i class="fa-solid fa-store"></i>
+              </div>
+
+              <div>
+
+                  <h3>Velachery Branch</h3>
+
+                  <span>Service Center</span>
+
+              </div>
+
+          </div>
+
+
+          <p class="branch-address">
+
+              17/1,<br> 100 Feet Road Bypass,<br>
+              Velachery,<br>
+              Chennai - 600042
+
+          </p>
+
+
+          <div class="branch-details">
+
+              <div>
+                  <i class="fa-solid fa-phone"></i>
+                  <a href="tel:+919941950591">
+										+91 99419 50591
+								</a>
+              </div>
+
+              <div>
+                  <i class="fa-regular fa-clock"></i>
+                  10:00 AM - 9:30 PM
+              </div>
+
+          </div>
+
+
+          <a href="https://share.google/b85ormeEq5UEZBHXe"
+             target="_blank"
+             class="direction-btn">
+
+              Get Directions
+
+              <i class="fa-solid fa-arrow-right"></i>
+
+          </a>
+
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.806199466519!2d80.21546437484157!3d12.98424398733228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d8fae460f05%3A0xaf59efdd352d6ebf!2sE%20corner%20service!5e0!3m2!1sen!2sin!4v1782379329515!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+      </div>
+
+  </div>
+
+</section>
+
+
+
+  <!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+  <div class="footer-container">
+
+      <!-- Column 1 -->
+
+      <div class="footer-col">
+
+          <div class="footer-logo">
+
+            <img src="assets/hero/footerlogo.png" alt="eCorner Logo">
+
+          </div>
+
+          <p class="footer-desc">
+              Your trusted destination for premium electronics,
+              smart devices, home essentials, fragrances and
+              expert repair services.
+          </p>
+
+          <div class="footer-social">
+						<a href="https://www.instagram.com/ecorner_india?igsh=ZjFsOGp3NmVmNjBx" target="_blank" class="insta"><i class="fa-brands fa-instagram"></i></a>
+						<a href="https://wa.me/919941950591" rel="noopener" class="whatsapp" target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+
+      </div>
+
+      <!-- Column 2 -->
+
+      <div class="footer-col">
+
+          <h4>Quick Links</h4>
+
+          <ul>
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+          </ul>
+
+      </div>
+
+      <!-- Column 3 -->
+
+      <div class="footer-col">
+
+          <h4>Repair Services</h4>
+
+          <ul>
+
+              <li><a href="service.html">Screen Replacement</a></li>
+              <li><a href="service.html">Battery Replacement</a></li>
+              <li><a href="service.html">Laptop Repair</a></li>
+              <li><a href="service.html">Software Support</a></li>
+              <li><a href="service.html">Data Recovery</a></li>
+
+          </ul>
+
+      </div>
+
+      <!-- Column 4 -->
+
+			<div class="footer-col">
+				<h4>Get In Touch</h4>
+					<ul>
+						<li><i class="fas fa-phone"></i><a href="tel:+919941950591">+91 99419 50591</a></li>
+						<li><i class="fas fa-envelope"></i>ecorner0002@gmail.com</li>
+						<li><i class="fas fa-location-dot"></i>Chennai, Tamil Nadu</li>
+					</ul>
+			</div>
+
+  </div>
+
+
+<!-- Bottom -->
+<div class="footer-bottom">
+  <div class="footer-rating">
+		Trusted by 1000+ Customers
+  </div>
+  <p> © 2016 e-Corner. All Rights Reserved.</p>
+</div>
+
+</footer>
+
+
+
+<div class="socials">
+  <a href="https://www.instagram.com/ecorner_india?igsh=ZjFsOGp3NmVmNjBx" target="_blank" class="insta"><i class="fa-brands fa-instagram"></i></a>
+  <a href="https://wa.me/919941950591" rel="noopener" class="whatsapp" target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
+</div>
+
+<script src="nav.js"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="main.js"></script>
+<script src="contact.js"></script>
+
+
+
+</body>
+</html>

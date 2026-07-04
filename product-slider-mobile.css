@@ -1,0 +1,315 @@
+/* Product page hero sliders — mobile only (≤767px) */
+
+@media (max-width: 767px) {
+  .hero-slider {
+    padding: 12px 4% 20px;
+    margin-top: 0;
+  }
+
+  .heroSwiper {
+    border-radius: 24px;
+  }
+
+  .hero-slide {
+    height: auto;
+    min-height: 0;
+    padding: 28px 18px 52px;
+    border-radius: 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    overflow: hidden;
+  }
+
+  .hero-content {
+    order: 1;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-visual {
+    order: 2;
+    width: 100%;
+    max-width: 340px;
+    height: 220px;
+    min-height: 220px;
+    margin: 0 auto;
+    transform: none;
+    position: relative;
+    flex-shrink: 0;
+  }
+
+  .hero-tag {
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding: 10px 18px;
+    margin-bottom: 16px;
+  }
+
+  .hero-content h1 {
+    font-size: 1.85rem;
+    line-height: 1.1;
+    margin-bottom: 12px;
+  }
+
+  .hero-content p {
+    font-size: 0.92rem;
+    line-height: 1.65;
+    max-width: none;
+    margin: 0 auto;
+  }
+
+  .hero-brands {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 4px;
+    font-size: 12px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    gap: 10px;
+  }
+
+  .hero-buttons .primary-btn,
+  .hero-buttons .secondary-btn {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 24px;
+    text-align: center;
+  }
+
+  .hero-visual .hero-glow {
+    width: 200px;
+    height: 200px;
+    right: 50%;
+    top: 50%;
+    left: auto;
+    transform: translate(50%, -50%);
+    opacity: 0.85;
+  }
+
+  .text-glow,
+  .decor,
+  .laser-line,
+  .red-smoke,
+  .gaming-glow,
+  .gaming-glow-blue,
+  .gaming-glow-red,
+  .gaming-floor,
+  .gaming-line,
+  .gaming-diamond,
+  .particle {
+    display: none !important;
+  }
+
+  /* ── Slide 1: Premium Audio ── */
+  .headphone {
+    width: 120px;
+    left: 50%;
+    right: auto;
+    top: 50%;
+    transform: translate(-58%, -48%);
+  }
+
+  .speaker {
+    width: 88px;
+    right: 6%;
+    left: auto;
+    top: auto;
+    bottom: 8%;
+  }
+
+  .airpods {
+    width: 78px;
+    left: 10%;
+    right: auto;
+    top: 6%;
+  }
+
+  /* ── Slide 2: Laptops ── */
+  .slide-two .macbook {
+    width: 130px;
+    left: 8%;
+    right: auto;
+    top: 18%;
+    transform: rotate(-10deg);
+  }
+
+  .slide-two .gaming-laptop {
+    width: 165px;
+    right: 4%;
+    left: auto;
+    bottom: 6%;
+    top: auto;
+  }
+
+  /* ── Slide 3: Mobiles & Tablets ── */
+  .slide-three {
+    padding: 28px 18px 52px;
+  }
+
+  .slide-three .mobile-visual {
+    height: 220px;
+    width: 100%;
+  }
+
+  .slide-three .mobile-circle {
+    width: 210px;
+    height: 210px;
+  }
+
+  .slide-three .ring-1 {
+    width: 190px;
+    height: 190px;
+    border-width: 14px;
+  }
+
+  .slide-three .ring-2 {
+    width: 145px;
+    height: 145px;
+    border-width: 10px;
+  }
+
+  .slide-three .iphone {
+    width: 62px;
+    left: 16%;
+    right: auto;
+    bottom: 28px;
+    transform: none;
+  }
+
+  .slide-three .ipad {
+    width: 100px;
+    left: 50%;
+    right: auto;
+    bottom: 22px;
+    transform: translateX(-50%);
+  }
+
+  .slide-three .samsung {
+    width: 68px;
+    right: 14%;
+    left: auto;
+    bottom: 28px;
+    transform: none;
+  }
+
+  .slide-three .mobile-features {
+    align-items: center;
+    gap: 10px;
+    margin-top: 16px;
+  }
+
+  .slide-three .mobile-features div {
+    font-size: 14px;
+  }
+
+  /* ── Slide 4: Gaming ── */
+  .slide-four h1 {
+    font-size: 1.85rem;
+  }
+
+  .slide-four .ps5 {
+    height: 195px;
+    width: auto;
+    left: 50%;
+    right: auto;
+    bottom: 0;
+    transform: translateX(-50%);
+  }
+
+  .slide-four .ps5:hover {
+    transform: translateX(-50%) scale(1.03);
+  }
+
+  .slide-four .xbox {
+    width: 72px;
+    right: 6%;
+    left: auto;
+    bottom: 18px;
+    opacity: 0.75;
+    filter: none;
+  }
+
+  .slide-four .switch {
+    width: 88px;
+    left: 4%;
+    right: auto;
+    bottom: 12px;
+    transform: rotate(10deg);
+    opacity: 0.8;
+  }
+
+  .slide-four .switch:hover {
+    transform: rotate(10deg) scale(1.03);
+  }
+
+  /* ── Slide 5: Smart Living ── */
+  .slide-five .living-glow {
+    display: block !important;
+    width: 180px;
+    height: 180px;
+    top: -30px;
+    right: -20px;
+  }
+
+  .slide-five .smart-shelf {
+    width: 88%;
+    left: 6%;
+    bottom: 36px;
+    height: 10px;
+  }
+
+  .slide-five .smart-lock {
+    width: 88px;
+    height: auto;
+    left: 4%;
+    bottom: 44px;
+  }
+
+  .slide-five .air-purifier {
+    width: 78px;
+    height: auto;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    animation: none;
+  }
+
+  .slide-five .air-purifier:hover {
+    transform: translateX(-50%) scale(1.03);
+  }
+
+  .slide-five .vacuum {
+    width: 76px;
+    height: auto;
+    right: 4%;
+    left: auto;
+    bottom: 42px;
+    transform: rotate(-10deg);
+  }
+
+  .slide-five .vacuum:hover {
+    transform: rotate(-10deg) scale(1.03);
+  }
+
+  /* Swiper pagination */
+  .hero-slider .swiper-pagination {
+    bottom: 12px !important;
+  }
+
+  .hero-slider .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+  }
+
+  .hero-slider .swiper-pagination-bullet-active {
+    width: 22px;
+  }
+}

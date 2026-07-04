@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eCorner Electronics</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="service.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+<header class="navbar">
+
+  <div class="logo">
+    <a href="index.html" class="logo">
+
+      <img src="assets/hero/navbarlogo.png" alt="eCorner Logo">
+  
+      <span>e-Corner</span>
+  
+  </a>
+  </div>
+  <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+    <span class="nav-toggle-bar"></span>
+    <span class="nav-toggle-bar"></span>
+    <span class="nav-toggle-bar"></span>
+  </button>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+<li class="products-nav">
+
+  <a href="product.html">
+      Products<i class="fa-solid fa-angle-up dropdown-arrow"></i>
+  </a>
+
+  <div class="dropdown-menu">
+    <a href="product.html?department=mobility"><i class="fa-solid fa-mobile-screen-button"></i><span>Mobility</span></a>
+    <a href="product.html?department=laptops"><i class="ri-macbook-line"></i><span>Laptop & PC</span></a>
+    <a href="product.html?department=gaming"><i class="ri-gamepad-line"></i><span>Gaming</span></a>
+    <a href="product.html?department=tv"><i class="ri-tv-2-line"></i><span>TV & Audio</span></a>
+    <a href="product.html?department=storage"><i class="ri-hard-drive-3-line"></i><span>Storage</span></a>
+    <a href="product.html?department=cctv"><i class="ri-cctv-line"></i><span>Camera</span></a>
+    <a href="product.html?department=printers"><i class="ri-printer-line"></i><span>Printer</span></a>
+    <a href="product.html?department=smartLiving"><i class="ri-home-gear-line"></i><span>Smart Living</span></a>
+    <a href="product.html?department=fragrance"><i class="ri-sparkling-line"></i><span>Fragrance</span></a>
+  </div>
+  
+      </li>
+  
+      <li><a href="service.html" class="active">Services</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li class="nav-mobile-cta-wrap"><a href="contact.html" class="nav-mobile-cta"><i class="fa-regular fa-message"></i> Enquire Now</a></li>
+  
+  </ul>
+  
+  <a
+      href="contact.html"
+      class="cta-btn">
+      <i class="fa-regular fa-message"></i>
+      Enquire Now
+  </a>
+  </header>
+
+
+
+  <!-- ================= SERVICES HERO ================= -->
+
+  <section class="ec-hero">
+    <div class="ec-hero__inner">
+   
+      <!-- left: copy -->
+      <div class="ec-hero__copy">
+        <span class="ec-eyebrow"><span class="ec-eyebrow__dot"></span>Repair services</span>
+   
+        <h1>Expert repairs<br><em>&amp; device care</em></h1>
+   
+        <p class="ec-hero__sub">
+          Professional repair solutions for smartphones, laptops, smart devices
+          and accessories — delivered by experienced technicians, with your
+          device status tracked from drop-off to pickup.
+        </p>
+   
+        <div class="ec-hero__ctas">
+          <a href="#book" class="ec-btn ec-btn--primary">Book a repair</a>
+          <a href="#services" class="ec-btn ec-btn--ghost">See how it works</a>
+        </div>
+   
+        <div class="ec-hero__stats">
+          <div>
+            <div class="ec-stat__num">24 hr</div>
+            <div class="ec-stat__label">average turnaround</div>
+          </div>
+          <div>
+            <div class="ec-stat__num">6 mo</div>
+            <div class="ec-stat__label">repair warranty</div>
+          </div>
+          <div>
+            <div class="ec-stat__num">4.9★</div>
+            <div class="ec-stat__label">customer rating</div>
+          </div>
+        </div>
+      </div>
+   
+      <!-- right: live diagnostic ticket -->
+      <div class="ec-ticket" role="img" aria-label="Illustration of a live repair ticket showing a device moving through diagnosis, repair, quality check and pickup">
+        <span class="ec-ticket__tag">Live example</span>
+   
+        <div class="ec-ticket__head">
+          <span class="ec-ticket__id">TICKET #EC-0417</span>
+          <span class="ec-ticket__live"><span class="ec-ticket__live-dot"></span>LIVE</span>
+        </div>
+   
+        <div class="ec-ticket__device">
+          <div class="ec-scanline" aria-hidden="true"></div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+            <rect x="6" y="2" width="12" height="20" rx="2.4"></rect>
+            <line x1="10.5" y1="19" x2="13.5" y2="19"></line>
+          </svg>
+        </div>
+   
+        <div class="ec-ticket__rows">
+          <div class="ec-ticket__row"><span>Device</span><span>iPhone 13 Pro</span></div>
+          <div class="ec-ticket__row"><span>Issue</span><span>Screen crack</span></div>
+          <div class="ec-ticket__row"><span>Status</span><span id="ec-status">Diagnosing…</span></div>
+        </div>
+      </div>
+   
+    </div>
+  </section>
+
+
+  <!-- ================= DEVICE SELECTOR ================= -->
+  <section class="devices" id="devices">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="tag mono">// SELECT A DEVICE</span>
+        <h2>What's giving you trouble today?</h2>
+        <p>Tap a category to see exactly what we treat — and roughly how long it takes to get back in your hands.</p>
+      </div>
+   
+      <div class="device-grid" id="deviceGrid">
+        <!-- cards injected by JS -->
+      </div>
+    </div>
+  </section>
+   
+  <!-- ================= PROCESS ================= -->
+  <section class="process" id="process">
+    <div class="wrap">
+      <div class="section-head" style="margin-bottom:0;">
+        <span class="tag mono">// THE PATH BACK TO FULL HEALTH</span>
+        <h2>Four steps. No guesswork.</h2>
+      </div>
+   
+      <div class="process-line">
+        <div class="process-step">
+          <div class="node mono">01</div>
+          <h3>Diagnose</h3>
+          <p>We run a full check in front of you — no device leaves our sight without your say-so.</p>
+        </div>
+        <div class="process-step">
+          <div class="node mono">02</div>
+          <h3>Quote</h3>
+          <p>One clear price before we touch a screw. No surprise line items at pickup.</p>
+        </div>
+        <div class="process-step">
+          <div class="node mono">03</div>
+          <h3>Repair</h3>
+          <p>Genuine or grade-A parts, fitted by technicians certified on your exact model.</p>
+        </div>
+        <div class="process-step">
+          <div class="node mono">04</div>
+          <h3>Deliver</h3>
+          <p>We hand it back tested, cleaned, and with everything still logged in as you left it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <!-- ================= TRUST / EMOTIONAL ================= -->
+  <section class="trust">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="tag mono">// WHY PEOPLE COME BACK</span>
+        <h2>It's not really about the device.</h2>
+        <p>It's about the exam that's due tomorrow, the client call at nine, the voice notes from your mother. We treat every repair like it's the only one that matters — because to you, it is.</p>
+      </div>
+   
+      <div class="trust-grid">
+        <div class="trust-card">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-4.5-9.5-9.1C.7 8.4 2.2 5 5.6 4.2 8 3.6 10 4.7 12 7c2-2.3 4-3.4 6.4-2.8 3.4.8 4.9 4.2 3.1 7.7C19 16.5 12 21 12 21Z"/></svg>
+          <h3>Your data stays yours</h3>
+          <p>We never browse, back up, or copy what's on your device. If we ever need access for a repair, we ask first — in writing.</p>
+        </div>
+        <div class="trust-card">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l7 4v6c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6l7-4Z"/><path d="M9 12l2 2 4-4"/></svg>
+          <h3>Parts we'd use ourselves</h3>
+          <p>Genuine where it matters, grade-A tested elsewhere. Every part carries the same year of cover as the repair.</p>
+        </div>
+        <div class="trust-card">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h16v12H5.5L4 18V4Z"/><path d="M8 9h8M8 12h5"/></svg>
+          <h3>We explain, not upsell</h3>
+          <p>If a fix isn't worth the cost, we'll say so — and tell you honestly what we'd do in your position.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <!-- ================= STATS BAND ================= -->
+  <section class="stats">
+    <div class="wrap">
+      <div class="stats-grid">
+        <div>
+          <div class="num">9<em>yrs</em></div>
+          <div class="cap">fixing this neighbourhood's devices</div>
+        </div>
+        <div>
+          <div class="num">12.4<em>k+</em></div>
+          <div class="cap">repairs completed</div>
+        </div>
+        <div>
+          <div class="num">4.9<em>/5</em></div>
+          <div class="cap">average customer rating</div>
+        </div>
+        <div>
+          <div class="num">94<em>%</em></div>
+          <div class="cap">fixed same day</div>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <!-- ================= TESTIMONIAL ================= -->
+  <section class="testimonial">
+    <div class="wrap">
+      <blockquote>"I walked in convinced my laptop — and three years of unbacked-up thesis notes — was gone. I walked out two hours later with <span>both</span> intact."</blockquote>
+      <div class="who"><strong>Aishwarya R.</strong> — laptop logic-board repair</div>
+    </div>
+  </section>
+   
+  <!-- ================= FINAL CTA ================= -->
+  <section class="final-cta">
+    <div class="wrap">
+      <div class="final-cta-box">
+        <div class="ekg-box">
+          <svg viewBox="0 0 600 90" preserveAspectRatio="none">
+            <path class="ekg-line" d="M0,45 L40,45 L55,45 L65,20 L75,70 L85,10 L95,45 L140,45 L160,45 L175,25 L190,65 L205,10 L220,45 L300,45 L340,45 L355,20 L365,70 L375,10 L385,45 L430,45 L450,45 L465,25 L480,65 L495,10 L510,45 L600,45 L640,45 L655,20 L665,70 L675,10 L685,45 L730,45 L750,45 L765,25 L780,65 L795,10 L810,45 L900,45 L940,45 L955,20 L965,70 L975,10 L985,45 L1030,45 L1050,45 L1065,25 L1080,65 L1095,10 L1110,45 L1200,45"/>
+          </svg>
+        </div>
+        <h2>Whatever's broken, bring it in — we'll have it talking to you again.</h2>
+        <a href="#devices" class="btn btn-primary">Book a diagnostic</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+  <div class="footer-container">
+
+  <!-- Column 1 -->
+
+  <div class="footer-col">
+
+      <div class="footer-logo">
+
+        <img src="assets/hero/footerlogo.png" alt="eCorner Logo">
+
+      </div>
+
+      <p class="footer-desc">
+          Your trusted destination for premium electronics,
+          smart devices, home essentials, fragrances and
+          expert repair services.
+      </p>
+
+      <div class="footer-social">
+
+        <a href="https://www.instagram.com/ecorner_india?igsh=ZjFsOGp3NmVmNjBx" target="_blank" class="insta"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://wa.me/919941950591" rel="noopener" class="whatsapp" target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
+
+      </div>
+
+  </div>
+
+  <!-- Column 2 -->
+
+  <div class="footer-col">
+
+      <h4>Quick Links</h4>
+
+      <ul>
+
+        <li><a href="index.html">Home</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+      </ul>
+
+  </div>
+
+  <!-- Column 3 -->
+
+<div class="footer-col">
+
+  <h4>Repair Services</h4>
+
+  <ul>
+
+      <li><a href="service.html">Screen Replacement</a></li>
+      <li><a href="service.html">Battery Replacement</a></li>
+      <li><a href="service.html">Laptop Repair</a></li>
+      <li><a href="service.html">Software Support</a></li>
+      <li><a href="service.html">Data Recovery</a></li>
+
+  </ul>
+
+</div>
+
+  <!-- Column 4 -->
+
+  <div class="footer-col">
+    <h4>Get In Touch</h4>
+      <ul>
+        <li><i class="fas fa-phone"></i><a href="tel:+919941950591">+91 99419 50591</a></li>
+        <li><i class="fas fa-envelope"></i>ecorner0002@gmail.com</li>
+        <li><i class="fas fa-location-dot"></i>Chennai, Tamil Nadu</li>
+      </ul>
+  </div>
+
+</div>
+
+
+<!-- Bottom -->
+
+<div class="footer-bottom">
+
+  <div class="footer-rating">
+
+      Trusted by 1000+ Customers
+
+  </div>
+
+  <p>
+      © 2016 eCorner. All Rights Reserved.
+  </p>
+
+  </div>
+
+</footer>
+
+
+
+<div class="socials">
+  <a href="https://www.instagram.com/ecorner_india?igsh=ZjFsOGp3NmVmNjBx" target="_blank" class="insta"><i class="fa-brands fa-instagram"></i></a>
+  <a href="https://wa.me/919941950591" rel="noopener" class="whatsapp" target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
+</div>
+
+<script src="nav.js"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="main.js"></script>
+<script src="service.js"></script>
+    
+</body>
+</html>

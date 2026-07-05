@@ -279,28 +279,28 @@ cctv:{
           brand:"Hikvision",
           name:"Outdoor Camera",
           variant:"4MP",
-          image:"assets/products/cctv/hikvision.png"
+          image:"assets/products/CCTV/hikvision.png"
       },
 
       {
           brand:"CP Plus",
           name:"WiFi Camera",
           variant:"1080P",
-          image:"assets/products/cctv/cpplus.png"
+          image:"assets/products/CCTV/cpplus.png"
       },
 
       {
           brand:"Qubo",
           name:"WiFi Camera",
           variant:"1080P",
-          image:"assets/products/cctv/dvr.png"
+          image:"assets/products/CCTV/dvr.png"
       },
 
       {
           brand:"TP-Link",
           name:"Tapo C210",
           variant:"360°",
-          image:"assets/products/cctv/tapo.png"
+          image:"assets/products/CCTV/tapo.png"
       }
 
   ]
@@ -444,7 +444,7 @@ fragrance:{
           brand:"Davidoff ",
           name:"Cool Water",
           variant:"EDP",
-          image:"assets/products/fragnance/davidoff.png"
+          image:"assets/products/fragnance/Davidoff.png"
       }
 
   ]

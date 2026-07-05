@@ -1050,7 +1050,7 @@ overflow: hidden;
     color: #fff;
   }
 }
-@media (max-width: 360px){
+@media (max-width: 430px){
   .pedestal{
     position:absolute;
     width:325px;

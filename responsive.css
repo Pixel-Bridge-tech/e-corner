@@ -1050,7 +1050,7 @@ overflow: hidden;
     color: #fff;
   }
 }
-@media (max-width: 430px){
+@media (max-width: 376px){
   .pedestal{
     position:absolute;
     width:325px;
@@ -1096,6 +1096,63 @@ overflow: hidden;
     right:140px;
   
     top: 160px;
+  
+    z-index:5;
+  }
+
+  .device-showcase {
+    width: 100%;
+    height: 400px;
+position: relative;
+overflow: hidden;
+  }
+}
+@media (max-width: 450px){
+  .pedestal{
+    position:absolute;
+    width:405px;
+    right:3px;
+    top:120px;
+    bottom:20px;
+    z-index:1;
+  }
+  .laptop{
+    position:absolute;
+    width:280px;
+    right:20px;
+    top:40px;
+    z-index:1;
+  }
+  .phone{
+    position:absolute;
+  
+    width:180px;
+  
+    right:230px;
+  
+    top:110px;
+  
+    z-index:2;
+  }
+  .watch{
+    position:absolute;
+  
+    width:210px;
+  
+    right:160px;
+  
+    top:85px;
+  
+    z-index:2;
+  }
+  .earpods{
+    position:absolute;
+  
+    width:120px;
+  
+    right:120px;
+  
+    top: 145px;
   
     z-index:5;
   }

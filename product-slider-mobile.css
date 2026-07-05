@@ -62,10 +62,11 @@
   .hero-brands {
     justify-content: center;
     flex-wrap: wrap;
-    gap: 14px;
-    margin-top: 4px;
-    font-size: 12px;
-  }
+    gap: 10px;
+    margin: 10px 0 18px;
+    font-size: 13px;
+    font-weight: 600;
+}
 
   .hero-buttons {
     flex-direction: column;
@@ -118,23 +119,23 @@
   }
 
   .speaker {
-    width: 88px;
-    right: 6%;
+    width: 108px;
+    right: 4%;
     left: auto;
     top: auto;
     bottom: 8%;
   }
 
   .airpods {
-    width: 78px;
-    left: 10%;
+    width: 148px;
+    left: 3%;
     right: auto;
-    top: 6%;
+    top: 10%;
   }
 
   /* ── Slide 2: Laptops ── */
   .slide-two .macbook {
-    width: 130px;
+    width: 150px;
     left: 8%;
     right: auto;
     top: 18%;
@@ -142,7 +143,7 @@
   }
 
   .slide-two .gaming-laptop {
-    width: 165px;
+    width: 195px;
     right: 4%;
     left: auto;
     bottom: 6%;
@@ -177,15 +178,15 @@
   }
 
   .slide-three .iphone {
-    width: 62px;
-    left: 16%;
+    width: 102px;
+    left: 12%;
     right: auto;
     bottom: 28px;
     transform: none;
   }
 
   .slide-three .ipad {
-    width: 100px;
+    width: 150px;
     left: 50%;
     right: auto;
     bottom: 22px;
@@ -193,8 +194,8 @@
   }
 
   .slide-three .samsung {
-    width: 68px;
-    right: 14%;
+    width: 108px;
+    right: 5%;
     left: auto;
     bottom: 28px;
     transform: none;
@@ -229,7 +230,7 @@
   }
 
   .slide-four .xbox {
-    width: 72px;
+    width: 112px;
     right: 6%;
     left: auto;
     bottom: 18px;
@@ -238,7 +239,7 @@
   }
 
   .slide-four .switch {
-    width: 88px;
+    width: 108px;
     left: 4%;
     right: auto;
     bottom: 12px;
@@ -267,17 +268,17 @@
   }
 
   .slide-five .smart-lock {
-    width: 88px;
+    width: 188px;
     height: auto;
-    left: 4%;
-    bottom: 44px;
+    left: 0.5%;
+    bottom: 35px;
   }
 
   .slide-five .air-purifier {
-    width: 78px;
+    width: 178px;
     height: auto;
     left: 50%;
-    bottom: 30px;
+    bottom: 20px;
     transform: translateX(-50%);
     animation: none;
   }
@@ -287,11 +288,11 @@
   }
 
   .slide-five .vacuum {
-    width: 76px;
+    width: 176px;
     height: auto;
-    right: 4%;
+    right: 1%;
     left: auto;
-    bottom: 42px;
+    bottom: 5px;
     transform: rotate(-10deg);
   }
 

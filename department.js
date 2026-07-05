@@ -125,7 +125,7 @@ gaming:{
   brands:[
       "assets/logo/sony.png",
       "assets/logo/xbox.png",
-      "assets/logo/nintendo.png",
+      "assets/logo/switch.png",
       "assets/logo/meta.png"
   ],
 
@@ -171,10 +171,10 @@ tv:{
   description:"Discover smart TVs, premium speakers and immersive home entertainment systems.",
 
   brands:[
-      "assets/logos/sony.png",
-      "assets/logos/samsung.png",
-      "assets/logos/jbl.png",
-      "assets/logos/marshall.png"
+      "assets/logo/sony.png",
+      "assets/logo/samsung.png",
+      "assets/logo/jbl.png",
+      "assets/logo/marshall.png"
   ],
 
   products:[
@@ -190,21 +190,21 @@ tv:{
           brand:"Samsung",
           name:"Neo QLED",
           variant:"55-inch",
-          image:"assets/products/tv/samsung.png"
+          image:"assets/products/TV/samsung.png"
       },
 
       {
           brand:"JBL",
           name:"PartyBox",
           variant:"710",
-          image:"assets/products/tv/jbl.png"
+          image:"assets/products/TV/jbl.png"
       },
 
       {
           brand:"Marshall",
           name:"Stanmore III",
           variant:"Bluetooth Speaker",
-          image:"assets/products/tv/marshal.png"
+          image:"assets/products/TV/marshal.png"
       }
 
   ]
@@ -219,10 +219,9 @@ storage:{
   description:"Reliable storage solutions for professionals, creators and everyday users.",
 
   brands:[
-      "assets/logos/samsung.png",
-      "assets/logos/wd.png",
-      "assets/logos/sandisk.png",
-      "assets/logos/seagate.png"
+      "assets/logo/samsung.png",
+      "assets/logo/sandisk.png",
+      "assets/logo/seagate.png"
   ],
 
   products:[
@@ -260,17 +259,16 @@ storage:{
 },
 cctv:{
 
-  icon:"ri-cctv-line",
+  icon:"ri-camera-line",
 
   title:"CCTV",
 
   description:"Secure your home and business with advanced surveillance and smart security systems.",
 
   brands:[
-      "assets/logos/hikvision.png",
-      "assets/logos/cpplus.png",
-      "assets/logos/dahua.png",
-      "assets/logos/tplink.png"
+      "assets/logo/hikvision.png",
+      "assets/logo/cpplus.png",
+      "assets/logo/tplink.png"
   ],
 
   products:[
@@ -315,10 +313,10 @@ printers:{
   description:"Professional printing solutions for home, office and commercial needs.",
 
   brands:[
-      "assets/logos/hp.png",
-      "assets/logos/canon.png",
-      "assets/logos/epson.png",
-      "assets/logos/brother.png"
+    "assets/logo/hp.png",
+      "assets/logo/canon.png",
+      "assets/logo/epson.png",
+      "assets/logo/brother.png"
   ],
 
   products:[
@@ -363,10 +361,8 @@ smartLiving:{
   description:"Upgrade your lifestyle with premium smart home and personal care products.",
 
   brands:[
-      "assets/logos/dyson.png",
-      "assets/logos/qubo.png",
-      "assets/logos/philips.png",
-      "assets/logos/godrej.png"
+      "assets/logo/dyson.png",
+      "assets/logo/philips.png"
   ],
 
   products:[
@@ -411,10 +407,10 @@ fragrance:{
   description:"Explore premium perfumes and fragrances from internationally trusted brands.",
 
   brands:[
-      "assets/logos/armaf.png",
-      "assets/logos/lattafa.png",
-      "assets/logos/afnan.png",
-      "assets/logos/alhambra.png"
+    "assets/logo/paco.png",
+      "assets/logo/tom.png",
+      "assets/logo/versace.png",
+      "assets/logo/davidoff.png"
   ],
 
   products:[

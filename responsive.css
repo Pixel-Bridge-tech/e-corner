@@ -112,15 +112,35 @@ body.nav-open {
   .hero-left h1 {
     font-size: clamp(42px, 6vw, 56px);
   }
-
-  .device-showcase {
-    width: 100%;
-    max-width: 520px;
-    height: 420px;
-    margin: 0 auto;
-    transform: scale(0.72);
-    transform-origin: top center;
-  }
+/*
+  .device-showcase{
+    width:100%;
+    max-width:360px;
+    height:360px;
+    margin:0 auto;
+    transform:scale(0.60);
+    transform-origin:top center;
+    margin-bottom:-60px;
+}
+.pedestal{
+  width:100%;
+  max-width:360px;
+  height:360px;
+  margin:0 auto;
+  transform:scale(0.60);
+  transform-origin:top center;
+  bottom: -350px;
+}
+.spotlight {
+  width:100%;
+  max-width:360px;
+  height:360px;
+  margin:0 auto;
+  transform:scale(0.60);
+  transform-origin:top center;
+  margin-bottom:30px;
+}
+*/
 
   .hero-stats {
     gap: 32px;
@@ -490,7 +510,7 @@ body.nav-open {
   .stat-item h3 {
     font-size: 28px;
   }
-
+/*
   .device-showcase {
     width: 100%;
     max-width: 320px;
@@ -500,6 +520,7 @@ body.nav-open {
     transform-origin: top center;
     margin-bottom: -80px;
   }
+*/
 
   .phone-outline,
   .phone-outline-2,

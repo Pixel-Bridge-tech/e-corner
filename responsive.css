@@ -461,7 +461,7 @@ body.nav-open {
   /* Index hero */
   .hero {
     flex-direction: column;
-    padding: 32px 4% 48px;
+    padding: 32px 4% 0px;
     min-height: auto;
     gap: 24px;
   }
@@ -510,17 +510,80 @@ body.nav-open {
   .stat-item h3 {
     font-size: 28px;
   }
-/*
+  .spotlight{
+    position:absolute;
+    width:400px;
+    height:400px;
+    opacity:.9;
+    border-radius:50%;
+    background:
+    radial-gradient(
+        circle,
+        rgba(239,68,68,.15),
+        transparent 70%
+    );
+  
+    top:50px;
+  
+    right:20px;
+  
+  }
+  .pedestal{
+    position:absolute;
+    width:450px;
+    right:0;
+    top:120px;
+    bottom:20px;
+    z-index:1;
+  }
+  .laptop{
+    position:absolute;
+    width:250px;
+    right:20px;
+    top:90px;
+    z-index:1;
+  }
+  .phone{
+    position:absolute;
+  
+    width:180px;
+  
+    right:260px;
+  
+    top:120px;
+  
+    z-index:2;
+  }
+  .watch{
+    position:absolute;
+  
+    width:190px;
+  
+    right:220px;
+  
+    top:120px;
+  
+    z-index:2;
+  }
+  .earpods{
+    position:absolute;
+  
+    width:120px;
+  
+    right:180px;
+  
+    top: 160px;
+  
+    z-index:5;
+  }
+
   .device-showcase {
     width: 100%;
-    max-width: 320px;
-    height: 300px;
-    margin: 0 auto;
-    transform: scale(0.48);
-    transform-origin: top center;
-    margin-bottom: -80px;
+    height: 500px;
+position: relative;
+overflow: hidden;
   }
-*/
+
 
   .phone-outline,
   .phone-outline-2,
